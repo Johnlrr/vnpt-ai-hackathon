@@ -17,13 +17,13 @@ from tqdm import tqdm
 
 # Lấy Token từ biến môi trường (Docker) hoặc điền trực tiếp nếu test local
 # QUAN TRỌNG: Hãy đảm bảo các biến này được set trong Docker hoặc điền vào đây.
-AUTH_TOKEN = os.environ.get('API_TOKEN', "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0cmFuc2FjdGlvbl9pZCI6IjQ0N2IyOTY1LWEzNjQtNGNmNi05NTlkLTVjODc5MzliYTQwZSIsInN1YiI6ImY3NTczZmU0LWQxMjktMTFmMC1hNzY5LTY1YzE1OThiZjNhZCIsImF1ZCI6WyJyZXN0c2VydmljZSJdLCJ1c2VyX25hbWUiOiJkYmJhbzIzQGNsYy5maXR1cy5lZHUudm4iLCJzY29wZSI6WyJyZWFkIl0sImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0IiwibmFtZSI6ImRiYmFvMjNAY2xjLmZpdHVzLmVkdS52biIsInV1aWRfYWNjb3VudCI6ImY3NTczZmU0LWQxMjktMTFmMC1hNzY5LTY1YzE1OThiZjNhZCIsImF1dGhvcml0aWVzIjpbIlVTRVIiLCJUUkFDS18yIl0sImp0aSI6ImZkOGFmOWMzLTBlYjMtNGEwOS1iY2Y2LWU4NzhhMDBkM2ZlMyIsImNsaWVudF9pZCI6ImFkbWluYXBwIn0.yRvRNQsk5hFIsx5wU9pHq7MTIiKwldYn6byfHbp3CY2dLjW7RLM7d_9I9TjnyOAFpGrNdevxkTwYZPJ1usl4_R9VQXSu1qNPTSIO4J88ok9pATC70A--MKwPrOivXrCPPxRDWFoc_ma97N625FCd8hGj5r_kVBj1hXrnyiITI_3FFubx7dy_1YnPAZk78IByXgIb8Gdze6aXDjClUC8aMFUg9y8b4jopnx2jThCwhmMDnMCcn4JNJ8nZChktAKfQx22GyJuogmKeh8ABswZ0xzMFV4W3vnxYJ_pOR_tjzWrcmw8bGqd1JY6v6jbrcFaKqG1irspGVOsdeN3luuU_4Q")
-EMBED_ID = os.environ.get('EMBED_ID', "4525a834-464c-6f29-e063-62199f0a0f81")
-EMBED_KEY = os.environ.get('EMBED_KEY', "MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAIRkyCNeZKmtYJDygOze1L/dAZGk49s08rEhrMDvRwBgIqa6fD9bvJB4zVAhzRIzBRqIOsRoHfdr5Rg/P5UCALcCAwEAAQ==")
-SMALL_ID = os.environ.get('SMALL_ID', "4525a834-464b-6f29-e063-62199f0a0f81")
-SMALL_KEY = os.environ.get('SMALL_KEY', "MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAIbFyYdkIUtluh8uQFrXcGTGXY4N/o/t6JLwNhL1VMTxhy95E3lerbsJJnDHdnmR6V2XBip9hfTryIZd2HeZvFMCAwEAAQ==")
-LARGE_ID = os.environ.get('LARGE_ID', "4525a832-9105-15b3-e063-62199f0a3f23")
-LARGE_KEY = os.environ.get('LARGE_KEY', "MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAI3YMOIlnZ2O36pb0embkYcZpm0aNrWMt/PzqUEWs/WR+AbYMa7xWON+VbWFQFcrzV2io55PDJP6CtcRGKAWU6MCAwEAAQ==")
+AUTH_TOKEN = os.environ.get('API_TOKEN', "YOUR_REAL_API_TOKEN_HERE")
+EMBED_ID = os.environ.get('EMBED_ID', "YOUR_EMBED_ID_HERE")
+EMBED_KEY = os.environ.get('EMBED_KEY', "YOUR_EMBED_KEY_HERE")
+SMALL_ID = os.environ.get('SMALL_ID', "YOUR_SMALL_ID_HERE")
+SMALL_KEY = os.environ.get('SMALL_KEY', "YOUR_SMALL_KEY_HERE")
+LARGE_ID = os.environ.get('LARGE_ID', "YOUR_LARGE_ID_HERE")
+LARGE_KEY = os.environ.get('LARGE_KEY', "YOUR_LARGE_KEY_HERE")
 
 API_CONFIG = {
     'embed': {
@@ -407,3 +407,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
